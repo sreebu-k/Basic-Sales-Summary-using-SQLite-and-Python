@@ -2,42 +2,43 @@ Sales-Summary-using-SQLite-and-Python
 
 Objective
 
-To get basic sales information (total quantity sold and total revenue) using SQL inside Python, and display the result with a simple bar chart.
+To calculate total quantity and total revenue for each product using SQL inside Python, and display the results with a bar chart.
 
  Tools Used
 
 Python
 
-SQLite (built-in)
+SQLite (built-in database)
 
 Pandas
 
 Matplotlib
 
+🧱 Steps
 
-Steps
-
-Create a small SQLite database (sales_data.db) inside Python.
+Create a small SQLite database (sales_data.db) using Python.
 
 Create a table named sales with columns: product, quantity, and price.
 
-Insert some sample data manually.
+Insert sample data manually.
 
-Run SQL queries using Python to find total quantity and revenue per product.
+Run an SQL query to calculate:
 
-Show results using print() and plot a bar chart using Matplotlib.
+Total quantity per product
 
-Output
+Total revenue (quantity × price)
 
-Console Output Example:
+Display the results using Pandas and visualize them with Matplotlib.
 
-     product     total_qty   revenue
-0     Laptop           5     300000
-1     Mouse           20      10000
-2     Keyboard        10      15000
-3     Monitor          8      80000
-4     Headphones      12      24000
+(Optional) Clear old data before each run to avoid duplication.
 
+Output Example
+product	total_qty	revenue
+Headphones	12	24000.0
+Keyboard	10	15000.0
+Laptop	5	300000.0
+Monitor	8	80000.0
+Mouse	20	10000.0
 
 Bar Chart:
-A simple bar chart showing revenue by product.
+A simple chart showing Revenue by Product.
