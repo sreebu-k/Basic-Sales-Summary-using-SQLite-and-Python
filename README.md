@@ -14,7 +14,6 @@ Pandas
 
 Matplotlib
 
-Google Colab / Jupyter Notebook
 
 Steps
 
