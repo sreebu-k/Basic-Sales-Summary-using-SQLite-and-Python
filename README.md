@@ -1,4 +1,4 @@
-# Basic-Sales-Summary-using-SQLite-and-Python
+Sales-Summary-using-SQLite-and-Python
 
 Objective
 
