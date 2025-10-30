@@ -14,7 +14,7 @@ Pandas
 
 Matplotlib
 
-🧱 Steps
+Steps
 
 Create a small SQLite database (sales_data.db) using Python.
 
